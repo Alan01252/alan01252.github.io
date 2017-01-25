@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+            integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+            integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+            crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Ledger|Nixie+One" rel="stylesheet">
+
+    <style>
+
+        @media only screen and (max-width: 800px) {
+            .center-block {
+                top: 50%;
+                transform: translate3d(0%, -50%, 0);
+                position: absolute;
+            }
+
+            .container {
+                width: 100%;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+
+            .ah-title {
+                font-size: 70px;
+                font-weight: bold;
+                font-family: 'Dancing Script', cursive;
+            }
+        }
+
+        .card-title {
+            font-family: 'Ledger', serif;
+        }
+
+        .menu-holder {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .btn-secondary.dropdown-toggle {
+            border-color: #000;
+        }
+
+        .dropdown-menu {
+            -webkit-box-shadow: 0px 0px 3px #000;
+            -moz-box-shadow: 0px 0px 3px #000;
+            box-shadow: 0px 0px 3px #000;
+        }
+
+        .btn {
+            font-family: 'Dancing Script', serif;
+            font-size: 30px;
+            font-weight: bold;
+            color: black;
+            background-color: cadetblue;
+            border-color: cadetblue;
+            cursor: pointer;
+        }
+
+        a, a:link, a:visited {
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body style="background: cadetblue">
+
+<div>
+    <div class="container">
+
+        <div class="col align-middle text-center" style=" color:#0b203a; display: inline-block;">
+            <a href="./index.html">
+                <span
+                        style="color:#0b203a; font-size: 70px; font-weight:bold;font-family: 'Dancing Script', cursive;">Alan
+                    Hollis</span>
+            </a>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col">
+                <div class="card" style="font-family: 'Ledger', serif;">
+
+                    <div class="card-block">
+
+                        <div class="card-title">
+                            <h2
+                                    style="font-weight:bold;font-family: 'Dancing Script', cursive;">
+                                Contact Me</h2>
+                        </div>
+
+
+                        <form method="POST" action="http://formspree.io/me@alanhollis.com">
+
+                            <div class="form-group">
+                                <input class="form-control" type="email" name="email" placeholder="Your email">
+                            </div>
+
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" placeholder="Your message"
+                                          rows="10"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Email Me</button>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+</body>
+</html>
