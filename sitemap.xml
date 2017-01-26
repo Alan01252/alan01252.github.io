@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://example.org/contact/</loc>
+    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/php/solving-bugs-phpunit-git-bisect/</loc>
+    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/php/</loc>
+    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
