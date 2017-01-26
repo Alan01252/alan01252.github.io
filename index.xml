@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/index.xml</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Alan Hollis</title>
+    <link>http://alanhollis.com/index.xml</link>
+    <description>Recent content on Alan Hollis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Jan 2017 21:44:58 +0530</lastBuildDate>
-    <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://alanhollis.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>contact</title>
-      <link>http://example.org/contact/</link>
+      <link>http://alanhollis.com/contact/</link>
       <pubDate>Thu, 26 Jan 2017 21:44:58 +0530</pubDate>
       
-      <guid>http://example.org/contact/</guid>
+      <guid>http://alanhollis.com/contact/</guid>
       <description>&lt;div class=&#34;row&#34;&gt;
 
     &lt;div class=&#34;col&#34;&gt;
@@ -52,10 +52,10 @@
     
     <item>
       <title>contact</title>
-      <link>http://example.org/php/solving-bugs-phpunit-git-bisect/</link>
+      <link>http://alanhollis.com/php/solving-bugs-phpunit-git-bisect/</link>
       <pubDate>Thu, 26 Jan 2017 21:44:58 +0530</pubDate>
       
-      <guid>http://example.org/php/solving-bugs-phpunit-git-bisect/</guid>
+      <guid>http://alanhollis.com/php/solving-bugs-phpunit-git-bisect/</guid>
       <description>&lt;div class=&#34;row&#34;&gt;
 
     &lt;div class=&#34;col&#34;&gt;
