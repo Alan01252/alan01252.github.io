@@ -10,7 +10,7 @@
     <atom:link href="http://alanhollis.com/php/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>contact</title>
+      <title>Solving bugs with phpunit and git bisect</title>
       <link>http://alanhollis.com/php/solving-bugs-phpunit-git-bisect/</link>
       <pubDate>Thu, 26 Jan 2017 21:44:58 +0530</pubDate>
       
@@ -24,7 +24,7 @@
 
                 &lt;div class=&#34;card-title&#34;&gt;
                     &lt;h2
-                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;;
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
                         Solving Bugs With Php Unit and Git Bisect&lt;/h2&gt;
                 &lt;/div&gt;
 
@@ -176,7 +176,8 @@ index bd8a9a3..bbdf3a0 100644
                 &lt;/section&gt;
             &lt;/div&gt;
         &lt;/div&gt;
-    &lt;/div&gt;</description>
+    &lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
   </channel>

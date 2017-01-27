@@ -2,17 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://alanhollis.com/contact/</loc>
-    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>http://alanhollis.com/php/solving-bugs-phpunit-git-bisect/</loc>
     <lastmod>2017-01-26T21:44:58+05:30</lastmod>
   </url>
   
   <url>
+    <loc>http://alanhollis.com/contact/</loc>
+    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alanhollis.com/freelancing/first-month-freelancing/</loc>
+    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://alanhollis.com/</loc>
+    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://alanhollis.com/freelancing/</loc>
     <lastmod>2017-01-26T21:44:58+05:30</lastmod>
     <priority>0</priority>
   </url>
