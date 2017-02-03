@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://alanhollis.com/software-development/</loc>
+    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alanhollis.com/php/comparing-go-with-php/</loc>
+    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alanhollis.com/php/go-compared-with-php-arrays-and-slices/</loc>
+    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://alanhollis.com/php/solving-bugs-phpunit-git-bisect/</loc>
     <lastmod>2017-01-26T21:44:58+05:30</lastmod>
   </url>
@@ -28,7 +43,7 @@
   
   <url>
     <loc>http://alanhollis.com/</loc>
-    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
+    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -41,6 +56,12 @@
   <url>
     <loc>http://alanhollis.com/php/</loc>
     <lastmod>2017-01-26T21:44:58+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://alanhollis.com/software-development/</loc>
+    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   

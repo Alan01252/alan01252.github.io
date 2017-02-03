@@ -6,8 +6,589 @@
     <description>Recent content on Alan Hollis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Jan 2017 21:44:58 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 01 Feb 2017 12:44:58 +0530</lastBuildDate>
     <atom:link href="http://alanhollis.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Software Development</title>
+      <link>http://alanhollis.com/software-development/</link>
+      <pubDate>Wed, 01 Feb 2017 12:44:58 +0530</pubDate>
+      
+      <guid>http://alanhollis.com/software-development/</guid>
+      <description>&lt;div class=&#34;row&#34;&gt;
+
+    &lt;div class=&#34;col&#34;&gt;
+        &lt;div class=&#34;card&#34; style=&#34;font-family: &#39;Open Sans&#39;, sans-serif;&#34;&gt;
+
+            &lt;div class=&#34;card-block&#34;&gt;
+
+                &lt;div class=&#34;card-title&#34;&gt;
+                    &lt;h2
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                        Software Development&lt;/h2&gt;
+                &lt;/div&gt;
+
+
+                &lt;p&gt;
+                    &lt;a href=&#34;#portfolio&#34;&gt;Portfolio &lt;/a&gt;| &lt;a href=&#34;#tutorials&#34;&gt;Tutorials&lt;/a&gt;
+                &lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;row&#34;&gt;
+
+    &lt;div class=&#34;col&#34;&gt;
+        &lt;div class=&#34;card&#34; style=&#34;font-family: &#39;Open Sans&#39;, sans-serif;&#34;&gt;
+
+            &lt;div class=&#34;card-block&#34;&gt;
+
+                &lt;div class=&#34;card-title&#34;&gt;
+                    &lt;h2
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                        &lt;a name=&#34;portfolio&#34;&gt;Portfolio&lt;/a&gt;&lt;/h2&gt;
+                &lt;/div&gt;
+
+                &lt;p&gt;A summary of some the projects I&#39;m most proud of during my freelance career&lt;/p&gt;
+
+                &lt;div class=&#34;card-title&#34;&gt;
+                    &lt;h3
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                        Assist-CKD.org&lt;/h3&gt;
+                &lt;/div&gt;
+
+                &lt;p&gt;
+                    Assist-CKD is a quality improvement project supported by The Health Foundation which is looking to
+                    identify patients with a high risk of Chronic Kidney Disease progression.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    The application is designed to take data from external systems in the NHS and then allow lab
+                    technicians
+                    to review the data in a way which makes spotting if a person is likely to be at risk of Chronic
+                    Kidney Disease
+                    Easier.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    The existing application had performance and maintenance problems as it was tightly coupled to SQL
+                    Server
+                    which meant each trust using the software had to purchase an expensive software license in order to
+                    take part
+                    in the trial. The application was re-written to allow a choice of relational database servers, from
+                    MySQL To
+                    SQLite.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    The incorporation of SQLLite into the software also allowed individual trusts to be up and running
+                    as
+                    minimal involvement from IT departments were required. The software could be installed and a trust
+                    up and
+                    running in less than five minutes.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    Written using electron.js the application is able to run on multiple environments ( windows, mac )
+                    using only one codebase. The wealth of libraries written for node.js also meant the existing
+                    application could be re-written quickly, to a greater standard than the original quickly and
+                    inexpensively.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    Features Include:
+                &lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Fast import of CSV files containing millions of records&lt;/li&gt;
+                    &lt;li&gt;Support for multiple databases utilising the sequelize.js library&lt;/li&gt;
+                    &lt;li&gt;Database migrations and squirrel for easy updates to the application&lt;/li&gt;
+                    &lt;li&gt;Automated testing via Karma.js, Phantom.js and Karma-Electron&lt;/li&gt;
+                &lt;/ul&gt;
+
+                &lt;div class=&#34;card-title&#34;&gt;
+                    &lt;h3
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                        AgriCamera.co.uk&lt;/h3&gt;
+                &lt;/div&gt;
+
+                &lt;p&gt;
+                    AgriCamera.co.uk supplies CCTV to the agricultural industry. Due to the remote locations of the
+                    installation locations the software had to be designed to work with low bandwidth locations.
+                    H.264 was not a viable solution for AgriCamera due to the high latency involved which would render
+                    the cameras which ability to move based on user feedback in real-time useless.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    AgriCamera runs a hardware on the customers wifi which then transmits a compressed mjpeg stream to a
+                    centralised application
+                    built using Node.Js. Transportation of the images is achieved through the use of socket.io. The
+                    centralised engine allows
+                    a single mjpeg stream to be shared to multiple viewers without increasing the bandwidth usage at the
+                    clients site.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    AgriCamera has a mobile application written using Ionic/PhoneGap allowed quick iteration of design
+                    and
+                    ideas across the most number of devices. The mobile application quickly became one of the most
+                    popular
+                    ways for clients to access their mobile applications. Particular attention had to be paid to the
+                    performance of the application in order to make sure that
+                    the quality of the stream remained high. The application also provided a &#34;low bandwidth mode&#34; for
+                    those
+                    customers who&#39;s mobile signal was often poor.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    Features Include:
+                &lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Ability to choose multiple streams based on the speed of the customers connection&lt;/li&gt;
+                    &lt;li&gt;Full permissions based viewing of cameras&lt;/li&gt;
+                    &lt;li&gt;Motion Detection based recordings&lt;/li&gt;
+                    &lt;li&gt;Ability to &#34;mask&#34; sections of an image for greater motion accuracy&lt;/li&gt;
+                    &lt;li&gt;Automated scalability of service&lt;/li&gt;
+                    &lt;li&gt;Real-time logging and system diagnosis&lt;/li&gt;
+                    &lt;li&gt;Secure remote upates&lt;/li&gt;
+                &lt;/ul&gt;
+
+                &lt;p&gt;
+                    This technology allows AgriCamera to deliver a unique value proposition to their clients.
+                &lt;/p&gt;
+
+
+                &lt;div class=&#34;card-title&#34;&gt;
+                    &lt;h3
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                        The-Hpo.com&lt;/h3&gt;
+                &lt;/div&gt;
+
+                &lt;p&gt;
+                    The HPO provide an online auditing tool to help their clients better understand their businesses.
+                    The software driving their auditing tool had become hard to maintain and wasn&#39;t able to cope with
+                    the
+                    amount of data that The HPO were now handling. The customer front end also lacked visual appeal and
+                    needed to become more flexible as customers began looking for more ways to understand their data.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    The application required the design and implementation of a data warehouse. Using the techniques
+                    from
+                    the book &lt;a
+                        href=&#34;https://www.amazon.co.uk/Agile-Data-Warehouse-Design-Collaborative/dp/0956817203&#34;&gt;&lt;/a&gt;
+                    the HPO to build a warehouse which would fit their needs, and incorporate their existing
+                    algorithms whilst performing much more effectively than the previous version of the code.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    A reporting front end was creating using Yii which allowed customers to view their reports. The
+                    backend
+                    involves some non-trivial SQL queries, and careful consideration of what and how to index the data
+                    in the
+                    MySQL database was needed.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    Integration with ordering data was achieved by writing a custom extract transform load application
+                    utilising the Apache Camel
+                    Library.
+                    This allowed The HPO to quickly, easily and robustly build a integration engine between the
+                    normalised OLTP database and
+                    the OLAP database used for the warehouse.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    Features Include:
+                &lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Full frontend application allowing customisation of templates and reporting&lt;/li&gt;
+                    &lt;li&gt;Extract Transform Load application&lt;/li&gt;
+                    &lt;li&gt;Design and architecture of a data warehouse&lt;/li&gt;
+                    &lt;li&gt;Full front end reporting system, utilising HighCharts and the Yii Php Framework&lt;/li&gt;
+                &lt;/ul&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;row&#34;&gt;
+
+    &lt;div class=&#34;col&#34;&gt;
+        &lt;div class=&#34;card&#34; style=&#34;font-family: &#39;Open Sans&#39;, sans-serif;&#34;&gt;
+
+            &lt;div class=&#34;card-block&#34;&gt;
+
+                &lt;div class=&#34;card-title&#34;&gt;
+                    &lt;h2
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                        &lt;a name=&#34;tutorials&#34;&gt;Tutorials&lt;/a&gt;&lt;/h2&gt;
+                &lt;/div&gt;
+
+
+                &lt;p&gt;Some of the tutorials guides I&#39;ve written over the years&lt;/p&gt;
+
+                &lt;div class=&#34;card-title&#34;&gt;
+                    &lt;h3
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                        PHP&lt;/h3&gt;
+
+                &lt;/div&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a href=&#34;http://alanhollis.com/solving-bugs-phpunit-git-bisect/&#34;&gt;Solving bugs with PHPUnit and git bisect&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&#34;http://alanhollis.com/comparing-go-with-php/&#34;&gt;Go compared with PHP&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&#34;http://alanhollis.com/go-compared-with-php-arrays-and-slices/&#34;&gt;Go compared with PHP. Arrays and Slices&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comparing go with PHP</title>
+      <link>http://alanhollis.com/php/comparing-go-with-php/</link>
+      <pubDate>Thu, 26 Jan 2017 21:44:58 +0530</pubDate>
+      
+      <guid>http://alanhollis.com/php/comparing-go-with-php/</guid>
+      <description>&lt;div class=&#34;row&#34;&gt;
+
+    &lt;div class=&#34;col&#34;&gt;
+        &lt;div class=&#34;card&#34; style=&#34;font-family: &#39;Open Sans&#39;, sans-serif;&#34;&gt;
+
+            &lt;div class=&#34;card-block&#34;&gt;
+
+                &lt;div class=&#34;card-title&#34;&gt;
+                    &lt;h2
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                        Go compared with php. Arrays and slices&lt;/h2&gt;
+                &lt;/div&gt;
+
+                &lt;p&gt;This is part of a series of articles comparing the language of Go to PHP&lt;/p&gt;
+
+
+                &lt;h3 style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                    Variable assignment&lt;/h3&gt;
+                &lt;p&gt;
+                    In PHP variable assigned is very simple :
+                &lt;/p&gt;
+                &lt;pre&gt;&lt;code class=&#34;php hljs&#34;&gt;$myString = &#34;My String&#34;;&lt;/code&gt;
+                &lt;/pre&gt;
+                &lt;p&gt;
+                    In Go this is a little different. Go is statically typed meaning those familiar with other
+                    statically
+                    typed languages would expect to see something like
+                &lt;/p&gt;
+                &lt;pre&gt;&lt;code class=&#34;java hljs&#34;&gt;String myString = &#34;My String&#34;;&lt;/code&gt;
+                &lt;/pre&gt;
+                &lt;p&gt;
+                    In Go the type can be inferred from the expression. For instance to assign a string to a variable in
+                    Go
+                    you can do any one of the following:
+                &lt;/p&gt;
+                &lt;pre&gt;&lt;code class=&#34;go hljs&#34;&gt;&gt;var myString = &#34;hello&#34;
+//or
+myString := &#34;Hello&#34;&lt;/code&gt;
+                &lt;/pre&gt;
+                &lt;p&gt;
+                    To change the value later Go a single = is used
+                &lt;/p&gt;
+                &lt;pre&gt;&lt;code class=&#34;go hljs&#34;&gt;myString := &#34;myString&#34;
+myString = &#34;foo&#34;
+fmt.Println(myString) //Prints out Foo&lt;/code&gt;
+                &lt;/pre&gt;
+                &lt;p&gt;
+                    I prefer the way variable assignment is done in Go. It makes it very easy to see where the variable
+                    has
+                    been instantiated, where it&#39;s been changed and in 99% of times the type inference isn&#39;t an issue.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    Also note that the use of semicolons in Golang is optional
+                &lt;/p&gt;
+
+                &lt;h3 style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                    If statements&lt;/h3&gt;
+                If statements are very similar in both PHP and Golang in PHP
+                &lt;pre&gt;&lt;code class=&#34;php hljs&#34;&gt;if($i &lt; 3) {
+  echo &#34;$i is less than 3&#34;;
+                     &lt;/code&gt;
+}&lt;/pre&gt;
+                In Go
+                &lt;pre&gt;&lt;code class=&#34;go hljs&#34;&gt;if x &gt; 0 {
+   fmt.Println(x,&#34;is greater than zero&#34;)
+}&lt;/code&gt;
+                &lt;/pre&gt;
+                &lt;p&gt;
+                    The biggest difference are the optional brackets around the if statement. Braces are also mandatory
+                    and
+                    the first brace must be on the same line as the if.
+                &lt;/p&gt;
+                &lt;p&gt;
+                    This fits with the &lt;a
+                        href=&#34;https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md&#34;&gt;psr-2
+                    PHP fig standards&lt;/a&gt; and as such is really familiar to most PHP developers.
+                &lt;/p&gt;
+                &lt;p&gt;
+                    The biggest difference is it&#39;s common to see an initialization statement at the beginning of the if
+                    statement, so instead of seeing this:
+                &lt;/p&gt;
+
+                &lt;pre&gt;&lt;code class=&#34;php hljs&#34;&gt;$i = getMyVar();
+if($i &lt; 3) {
+  echo &#34;$i is less than 3&#34;;
+
+}&lt;/code&gt;
+                &lt;/pre&gt;
+                &lt;p&gt;
+                    You see
+                &lt;/p&gt;
+                &lt;pre&gt;&lt;code class=&#34;go hljs&#34;&gt;if x:=getMyVar(); x &gt; 0 {
+    fmt.Println(x,&#34;is greater than zero&#34;)
+}&lt;/code&gt;
+                &lt;/pre&gt;
+                &lt;p&gt;
+                    Personally I&#39;m not keen on this syntax as I find it slightly harder to realise at a glance what the
+                    if
+                    statement is checking, but this is purely a matter of preference.
+                &lt;/p&gt;
+
+                &lt;h3 style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                    Loops&lt;/h3&gt;
+                &lt;p&gt;
+                    Go takes an usual step when it comes to looping. The familiar while loop seen is most of languages
+                    based
+                    on C has been unified with the for loop meaning to do this
+                &lt;/p&gt;
+                &lt;pre&gt;&lt;code class=&#34;php hljs&#34;&gt;while($i &lt; 3) {
+$i++
+}&lt;/code&gt;
+                &lt;/pre&gt;
+                In Go you write
+                &lt;pre&gt;&lt;code class=&#34;go hjls&#34;&gt;for i &lt; 4 {
+    i++
+}&lt;/code&gt;
+                &lt;/pre&gt;
+                &lt;p&gt;
+                    When I&#39;m writing PHP code I tend to use &lt;em&gt;while&lt;/em&gt; for longer running loops, and
+                    &lt;em&gt;for&lt;/em&gt; for loops over a finite set of data. I find it harder when writing Go code to see, at a
+                    glance see what type of loop, the code is performing. This has caused me to code in infinite loops
+                    on
+                    more than one occasion whilst experimenting with Go.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    Go also uses the range clause to achieve similar functionality to PHP&#39;s foreach. Where in PHP you
+                    would
+                    do this
+                &lt;/p&gt;
+                &lt;pre&gt;&lt;code class=&#34;php hjls&#34;&gt;$myArrayOfThings = [1,2,3,4];
+foreach($myArrayOfThings as $key =&gt; $value) {
+  echo $key.&#34;-&#34;.$value.&#34;\n&#34;; //0-1 1-2 2-3 3-4
+}&lt;/code&gt;
+                &lt;/pre&gt;
+                In Go the range statement is used instead
+                &lt;pre&gt;&lt;code class=&#34;go hjls&#34;&gt;myArrayOfInts := []int{1,2,3,4,5,6}
+for key,value := range myArrayOfInts {
+    fmt.Println(key,value)
+}&lt;/code&gt;
+                &lt;/pre&gt;
+                &lt;p&gt;
+                    One of the things I dislike about PHP is the ordering of the foreach statement, and as such I prefer
+                    the
+                    way Go does it. One minor annoyance with Go is that if you don&#39;t use a variable in the code it won&#39;t
+                    compile. So if you only wish to use the key in the above you can use the magic _ character instead.
+                &lt;/p&gt;
+                &lt;pre&gt;&lt;code class=&#34;go hjls&#34;&gt;myArrayOfInts := []int{1,2,3,4,5,6}
+for key,_ := range myArrayOfInts {
+    fmt.Println(key)
+}&lt;/code&gt;
+                &lt;/pre&gt;
+
+                &lt;h3 style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                    Functions&lt;/h3&gt;
+                &lt;p&gt;
+                    Functions in Go allow multiple return values which make moving from PHP to Go a lot easier than it
+                    might
+                    be moving from other dynamic languages to static languages.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    In PHP a function can return multiple types, this is useful in a lot of ways for instance, dealing
+                    with
+                    errors. An example of this in PHP would be:
+                &lt;/p&gt;
+                &lt;pre&gt;&lt;code class=&#34;php hjls&#34;&gt;$result = updateSomething();
+if(!$result) {
+    return false;
+}
+echo &#34;Updated id &#34;.$id;&lt;/code&gt;
+                    &lt;/pre&gt;
+                &lt;p&gt;
+                    In Go we can use the fact that a function can return multiple values to increase code clarity whilst
+                    achieving the same effect.
+                &lt;/p&gt;
+                &lt;pre&gt;&lt;code class=&#34;go hjls&#34;&gt;int, err := updateSomething()
+if err == false {
+  return false
+}
+fmt.Println(&#34;Updated id&#34;,id)&lt;/code&gt;
+                    &lt;/pre&gt;
+                &lt;p&gt;This is a very brief look at Go in comparison to PHP. If you&#39;ve enjoyed this post and
+                    would like to see
+                    more please leave a comment.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Go compared with PHP arrays and slices</title>
+      <link>http://alanhollis.com/php/go-compared-with-php-arrays-and-slices/</link>
+      <pubDate>Thu, 26 Jan 2017 21:44:58 +0530</pubDate>
+      
+      <guid>http://alanhollis.com/php/go-compared-with-php-arrays-and-slices/</guid>
+      <description>&lt;div class=&#34;row&#34;&gt;
+
+    &lt;div class=&#34;col&#34;&gt;
+        &lt;div class=&#34;card&#34; style=&#34;font-family: &#39;Open Sans&#39;, sans-serif;&#34;&gt;
+
+            &lt;div class=&#34;card-block&#34;&gt;
+
+                &lt;div class=&#34;card-title&#34;&gt;
+                    &lt;h2
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                        Go compared with php. Arrays and slices&lt;/h2&gt;
+                &lt;/div&gt;
+
+
+                &lt;p&gt;This is part of a series of articles comparing the language of Go to PHP.&lt;/p&gt;
+
+                &lt;p&gt;
+                    One of the things I love about PHP is how flexible and easy to use in the language, want an array of
+                    strings just type
+                &lt;/p&gt;
+
+                &lt;h3 style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                    Creating
+                &lt;/h3&gt;
+                &lt;p&gt;
+                    Create an array in PHP
+                &lt;/p&gt;
+                &lt;pre&gt;&lt;code class=&#34;php hljs&#34;&gt;$myStringArray = [&#34;One&#34;,&#34;Two&#34;,&#34;Three&#34;];&lt;/code&gt;
+                &lt;/pre&gt;
+                &lt;p&gt;
+                    In Go creating the above is a little more verbose and like variable assignment above there&#39;s also
+                    multiple ways to create a slice. The most similar way to that of PHP is as follows.
+                &lt;/p&gt;
+                &lt;pre&gt;&lt;code class=&#34;go hjls&#34;&gt;myStringArray := []string{&#34;One&#34;,&#34;Two&#34;,&#34;Three&#34;}&lt;/code&gt;
+                &lt;/pre&gt;
+                &lt;h3
+                        style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                    Appending
+                &lt;/h3&gt;
+                &lt;p&gt;
+                    Things become a little trickier when you want to append to an array. In PHP world this is easy
+                &lt;/p&gt;
+                &lt;pre&gt;&lt;code
+                        class=&#34;php hljs&#34;&gt;$myStringArray=[&#34;One&#34;, &#34;Two&#34;, &#34;Three&#34;];\n
+$myStringArray[] = &#34;Four&#34;;&lt;/code&gt;
+                &lt;/pre&gt;
+                &lt;p&gt;
+                    In Go you need to use the global append function
+                &lt;/p&gt;
+
+                &lt;pre&gt;&lt;code class=&#34;go hjls&#34;&gt;myStringArray := []string{&#34;One&#34;,&#34;Two&#34;,&#34;Three&#34;}
+myStringArray = append(myStringArray,&#34;Four&#34;)
+fmt.Println(myStringArray)&lt;/code&gt;
+                    &lt;/pre&gt;
+                &lt;h3
+                        style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                    Extracting
+                &lt;/h3&gt;
+                &lt;p&gt;
+                    PHPs vast suite of inbuilt array functions make working with arrays simple. For instance to extract
+                    part
+                    of an array in PHP you can use the array_slice function.
+                &lt;/p&gt;
+
+                &lt;pre&gt;&lt;code class=&#34;php hljs&#34;&gt;$myArray = [&#34;a&#34;,&#34;b&#34;,&#34;c&#34;,&#34;d&#34;,&#34;e&#34;];
+$myNewArray = array_slice($myArray,2,2); // [&#34;c&#34;,&#34;d&#34;]&lt;/code&gt;
+                &lt;/pre&gt;
+                &lt;p&gt;
+                    To achieve the same functionality in Go a little piece of syntactical magic is required
+                &lt;/p&gt;
+
+                &lt;pre&gt;&lt;code class=&#34;go hjls&#34;&gt;myArray := []string{&#34;a&#34;, &#34;b&#34;, &#34;c&#34;, &#34;d&#34;, &#34;e&#34;}
+myNewArray := append([]string{},myArray[2:4]...) // [&#34;c&#34;,&#34;d&#34;]&lt;/code&gt;
+                    &lt;/pre&gt;
+                &lt;h3
+                        style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                    Iterating
+                &lt;/h3&gt;
+                &lt;p&gt;Iterating over a range of any function in PHP can be done using the construct.&lt;/p&gt;
+
+                &lt;pre&gt;&lt;code class=&#34;php hljs&#34;&gt;$myStringArray = [&#34;One&#34;,&#34;Two&#34;,&#34;Three&#34;]
+foreach ($myStringArray as $key =&amp;gt; value) {
+  echo $key.&#34; &#34;.$string.&#34;\r\n&#34;;
+}
+//0 One
+//1 Two
+//3 Three&lt;/code&gt;
+                &lt;/pre&gt;
+                &lt;p&gt;
+                    In Go we use the range construct
+                &lt;/p&gt;
+
+                &lt;pre&gt;&lt;code class=&#34;go hjls&#34;&gt;myStringArray := []string{&#34;one&#34;,&#34;two&#34;,&#34;three&#34;}
+for key,value := range myStringArray {
+  fmt.Println(key, value)&lt;/code&gt;
+}&lt;/pre&gt;
+                &lt;h3
+                        style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                    Imploding and Exploding
+                &lt;/h3&gt;
+                &lt;p&gt;
+                    Joining an array into a string in PHP can be done using the built in implode function
+                &lt;/p&gt;
+
+                &lt;pre&gt;&lt;code class=&#34;php hjls&#34;&gt;$myStringArray = [&#34;One&#34;,&#34;Two&#34;,&#34;Three&#34;];
+$myString = implode(&#34; &#34;,$myStringArray);
+echo $myString; // One Two Three&lt;/code&gt;
+                &lt;/pre&gt;
+                &lt;p&gt;
+                    Golang uses the join function from the strings package which you are required to import to use
+                &lt;/p&gt;
+                &lt;pre&gt;&lt;code class=&#34;go hjls&#34;&gt;package main
+
+import (
+  &#34;fmt&#34;
+  &#34;strings&#34;
+)
+
+func main() {
+  myStringArray := []string{&#34;one&#34;,&#34;two&#34;,&#34;three&#34;}
+  fmt.Println(strings.Join(myStringArray, &#34; &#34;))
+}&lt;/code&gt;
+                &lt;/pre&gt;
+                To take a string and turn it into an array in PHP we use the explode function
+                &lt;pre&gt;&lt;code class=&#34;php hjls&#34;&gt;$myString = &#34;One Two Three&#34;;
+$myStringArray = explode(&#34; &#34;,$myString); // [&#34;One&#34;, &#34;Two&#34;, &#34;Three&#34;]&lt;/code&gt;
+                &lt;/pre&gt;
+                &lt;p&gt;
+                    To take a string and turn it into an array in Golang we again need to use the strings package, but
+                    this
+                    time use the split function
+                &lt;/p&gt;
+                &lt;pre&gt;&lt;code class=&#34;go hjls&#34;&gt;myString := &#34;one two three&#34;
+myStringArray := strings.Split(myString, &#34; &#34;)
+fmt.Println(myStringArray)&lt;/code&gt;
+                &lt;/pre&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Solving bugs with phpunit and git bisect</title>
@@ -195,7 +776,7 @@ index bd8a9a3..bbdf3a0 100644
 
                 &lt;div class=&#34;card-title&#34;&gt;
                     &lt;h2
-                            style=&#34;font-weight:bold;font-family: &#39;Dancing Script&#39;, cursive;&#34;&gt;
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;;&#34;&gt;
                         Contact Me&lt;/h2&gt;
                 &lt;/div&gt;
 
