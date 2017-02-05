@@ -980,7 +980,7 @@ index bd8a9a3..bbdf3a0 100644
                                           rows=&#34;10&#34;&gt;&lt;/textarea&gt;
                     &lt;/div&gt;
 
-                    &lt;button type=&#34;submit&#34; class=&#34;btn btn-primary&#34;&gt;Email Me&lt;/button&gt;
+                    &lt;button type=&#34;submit&#34; class=&#34;btn btn-primary&#34;&gt;Click here to send&lt;/button&gt;
                 &lt;/form&gt;
 
 
