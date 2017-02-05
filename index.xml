@@ -287,6 +287,42 @@
                 &lt;div class=&#34;card-title&#34;&gt;
                     &lt;h2
                             style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                        &lt;a name=&#34;tutorials&#34;&gt;Case Studies&lt;/a&gt;&lt;/h2&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;card-title&#34;&gt;
+                    &lt;h3
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                        &lt;a name=&#34;tutorials&#34;&gt;Agricamera.co.uk&lt;/a&gt;&lt;/h3&gt;
+                &lt;/div&gt;
+
+                &lt;p&gt;
+                    Agricamera&#39;s entire software environment was built with DevOps in mind from the start. Before any new
+                    software was written careful thought was taken to make sure the development environments were immediately
+                    reproducible by issuing just a couple of commands using Vagrant and Ansible.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    This forethought meant deploying to production was just an extension of the development process. Ansible
+                    scripts were created which allowed every aspect of Agricameras architecture to be deployed and re-deployed instantly.
+                    This included provisioning of highly available node, web and database servers. As well as the management of 100&#39;s of
+                    remote devices deployed up and down the country.
+                &lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+
+    &lt;div class=&#34;col&#34;&gt;
+        &lt;div class=&#34;card&#34; style=&#34;font-family: &#39;Open Sans&#39;, sans-serif;&#34;&gt;
+
+            &lt;div class=&#34;card-block&#34;&gt;
+
+                &lt;div class=&#34;card-title&#34;&gt;
+                    &lt;h2
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
                         &lt;a name=&#34;tutorials&#34;&gt;Tools&lt;/a&gt;&lt;/h2&gt;
                 &lt;/div&gt;
 
@@ -297,8 +333,11 @@
                 &lt;/div&gt;
 
                 &lt;p&gt;
-                    After experimenting with a number of DevOps tools over the years Ansible quickly stood out as my favourite.
-                    The syntax is easy to reason about the, the way it works is intuitive, and it&#39;s quick to get up and running.
+                    After experimenting with a number of DevOps tools over the years Ansible quickly stood out as my
+                    favourite.
+                    The syntax is easy to reason about, the way it works is intuitive, and it&#39;s quick to get up and
+                    running for any
+                    type of new project.
                 &lt;/p&gt;
 
 
