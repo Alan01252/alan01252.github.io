@@ -12,6 +12,31 @@
   </url>
   
   <url>
+    <loc>http://alanhollis.com/app-building/</loc>
+    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alanhollis.com/dev-ops/</loc>
+    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alanhollis.com/it-architecture/</loc>
+    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alanhollis.com/it-strategy/</loc>
+    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alanhollis.com/marketing/</loc>
+    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://alanhollis.com/software-development/</loc>
     <lastmod>2017-02-01T12:44:58+05:30</lastmod>
   </url>
@@ -58,8 +83,38 @@
   </url>
   
   <url>
+    <loc>http://alanhollis.com/app-building/</loc>
+    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://alanhollis.com/dev-ops/</loc>
+    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://alanhollis.com/freelancing/</loc>
     <lastmod>2017-01-26T21:44:58+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://alanhollis.com/it-architecture/</loc>
+    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://alanhollis.com/it-strategy/</loc>
+    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://alanhollis.com/marketing/</loc>
+    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
