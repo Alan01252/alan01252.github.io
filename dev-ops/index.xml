@@ -27,6 +27,39 @@
                             style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
                         DevOps&lt;/h2&gt;
                 &lt;/div&gt;
+
+            &lt;/div&gt;
+
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+
+    &lt;div class=&#34;col&#34;&gt;
+        &lt;div class=&#34;card&#34; style=&#34;font-family: &#39;Open Sans&#39;, sans-serif;&#34;&gt;
+
+            &lt;div class=&#34;card-block&#34;&gt;
+
+                &lt;div class=&#34;card-title&#34;&gt;
+                    &lt;h2
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                        &lt;a name=&#34;tutorials&#34;&gt;Tools&lt;/a&gt;&lt;/h2&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;card-title&#34;&gt;
+                    &lt;h3
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                        &lt;a name=&#34;tutorials&#34;&gt;Ansible&lt;/a&gt;&lt;/h3&gt;
+                &lt;/div&gt;
+
+                &lt;p&gt;
+                    After experimenting with a number of DevOps tools over the years Ansible quickly stood out as my favourite.
+                    The syntax is easy to reason about the, the way it works is intuitive, and it&#39;s quick to get up and running.
+                &lt;/p&gt;
+
+
             &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
