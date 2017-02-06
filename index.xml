@@ -259,7 +259,8 @@
                 &lt;/p&gt;
 
                 &lt;p&gt;
-                    When I&#39;m not trying out new technology I can be found practicing languages on &lt;a href=&#34;https://www.duolingo.com/alan01276&#34;&gt;duolingo&lt;/a&gt;
+                    When I&#39;m not trying out new technology I can be found practicing languages on &lt;a
+                        href=&#34;https://www.duolingo.com/alan01276&#34;&gt;duolingo&lt;/a&gt;
                     or attempting to play along to some blues on my harmonica.
                 &lt;/p&gt;
 
@@ -268,6 +269,8 @@
                     advice
                     feel free to contact me using the form below.
                 &lt;/p&gt;
+
+                &lt;hr&gt;
 
                 &lt;form method=&#34;POST&#34; action=&#34;https://formspree.io/me@alanhollis.com&#34;&gt;
 
