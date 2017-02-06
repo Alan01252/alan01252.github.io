@@ -12,6 +12,11 @@
   </url>
   
   <url>
+    <loc>http://alanhollis.com/about-me/</loc>
+    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://alanhollis.com/app-building/</loc>
     <lastmod>2017-02-01T12:44:58+05:30</lastmod>
   </url>
@@ -74,6 +79,12 @@
   <url>
     <loc>http://alanhollis.com/freelancing/php-developer/</loc>
     <lastmod>2017-01-26T21:44:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://alanhollis.com/about-me/</loc>
+    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

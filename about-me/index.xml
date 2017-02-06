@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About-mes on Alan Hollis</title>
+    <link>http://alanhollis.com/about-me/index.xml</link>
+    <description>Recent content in About-mes on Alan Hollis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Feb 2017 12:44:58 +0530</lastBuildDate>
+    <atom:link href="http://alanhollis.com/about-me/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About Me</title>
+      <link>http://alanhollis.com/about-me/</link>
+      <pubDate>Wed, 01 Feb 2017 12:44:58 +0530</pubDate>
+      
+      <guid>http://alanhollis.com/about-me/</guid>
+      <description>&lt;div class=&#34;row&#34;&gt;
+
+    &lt;div class=&#34;col&#34;&gt;
+        &lt;div class=&#34;card&#34; style=&#34;font-family: &#39;Open Sans&#39;, sans-serif;&#34;&gt;
+
+            &lt;div class=&#34;card-block&#34;&gt;
+
+                &lt;div class=&#34;card-title&#34;&gt;
+                    &lt;h2
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                        About Me&lt;/h2&gt;
+                &lt;/div&gt;
+
+                &lt;p&gt;
+                    Leading development teams I&#39;ve learned not just to manage, but to listen, to motivate and to
+                    inspire. Through consulting, I&#39;ve learned the art of the sale, the value of long lasting connections
+                    and the power of recommendation. As a support engineer I&#39;ve learned to not plaster over problems,
+                    but to get to the heart of them.
+                &lt;/p&gt;
+                &lt;p&gt;
+                    Programming has, through practice, hard work and dedication, given me the skills and experience to
+                    solve problems. Experimenting with new technologies has shown me the strength of new ideas,
+                    demonstrated the robustness of old ones, and taught me to be pragmatic with my selection of tools.
+                &lt;p&gt;
+                    Most importantly, I get stuff done.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    If you&#39;re Looking for someone to help with your next IT/Software project, or just for some free
+                    advice
+                    feel free to contact me using the form below.
+                &lt;/p&gt;
+
+                &lt;form method=&#34;POST&#34; action=&#34;https://formspree.io/me@alanhollis.com&#34;&gt;
+
+                    &lt;input type=&#34;hidden&#34; name=&#34;_next&#34; value=&#34;//alanhollis.com/thanks/&#34;/&gt;
+
+                    &lt;div class=&#34;form-group&#34;&gt;
+                        &lt;input class=&#34;form-control&#34; type=&#34;email&#34; name=&#34;email&#34; placeholder=&#34;Your email&#34;&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class=&#34;form-group&#34;&gt;
+                                &lt;textarea class=&#34;form-control&#34; name=&#34;message&#34; placeholder=&#34;Your message&#34;
+                                          rows=&#34;10&#34;&gt;&lt;/textarea&gt;
+                    &lt;/div&gt;
+
+                    &lt;button type=&#34;submit&#34; class=&#34;btn btn-primary&#34;&gt;Send&lt;/button&gt;
+                &lt;/form&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
