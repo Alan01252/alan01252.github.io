@@ -525,9 +525,9 @@
                 &lt;/p&gt;
 
                 &lt;p&gt;
-                    In order to monitor the servers Agricamera use OMD/Check_MK ( wrappers around nagios ) which provide
+                    In order to monitor the servers, Agricamera use OMD/Check_MK ( wrappers around Nagios ) which provide
                     a number of
-                    standard &#34;off the shelf checks&#34; on the system, as well as custom checks written especially for
+                    standards &#34;off the shelf checks&#34; on the system, as well as custom checks were written especially for
                     Agricamera&#39;s
                     software. Logstash and Kibana are used to give the ops team insight into customers problems with
                     bespoke
@@ -537,7 +537,7 @@
                 &lt;/p&gt;
 
                 &lt;p&gt;
-                    Agricameras database are automatically backed up to Amazon S3 using cron jobs written in Ansible.
+                    Agricameras databases are automatically backed up to Amazon S3 using cron jobs written in Ansible.
                     The database restore process is also automated for simple &#34;worst case scenario&#34; data restorations.
                 &lt;/p&gt;
             &lt;/div&gt;
@@ -724,7 +724,7 @@
                     &lt;li&gt;Fast import of CSV files containing millions of records&lt;/li&gt;
                     &lt;li&gt;Support for multiple databases utilising the sequelize.js library&lt;/li&gt;
                     &lt;li&gt;Database migrations and squirrel for easy updates to the application&lt;/li&gt;
-                    &lt;li&gt;Automated testing via Karma.js, Phantom.js and Karma-Electron&lt;/li&gt;
+                    &lt;li&gt;Automated testing via Karma.js, Phantom.js, and Karma-Electron&lt;/li&gt;
                 &lt;/ul&gt;
 
                 &lt;div class=&#34;card-title&#34;&gt;
@@ -741,12 +741,12 @@
                 &lt;/p&gt;
 
                 &lt;p&gt;
-                    AgriCamera runs a hardware on the customers wifi which then transmits a compressed mjpeg stream to a
+                    AgriCamera runs a hardware on the customer&#39;s wifi which then transmits a compressed mjpeg stream to a
                     centralised application
                     built using Node.Js. Transportation of the images is achieved through the use of socket.io. The
                     centralised engine allows
                     a single mjpeg stream to be shared to multiple viewers without increasing the bandwidth usage at the
-                    clients site.
+                    client&#39;s site.
                 &lt;/p&gt;
 
                 &lt;p&gt;
@@ -758,7 +758,7 @@
                     performance of the application in order to make sure that
                     the quality of the stream remained high. The application also provided a &#34;low bandwidth mode&#34; for
                     those
-                    customers who&#39;s mobile signal was often poor.
+                    customer&#39;s who&#39;s mobile signal was often poor.
                 &lt;/p&gt;
 
                 &lt;p&gt;
@@ -771,7 +771,7 @@
                     &lt;li&gt;Ability to &#34;mask&#34; sections of an image for greater motion accuracy&lt;/li&gt;
                     &lt;li&gt;Automated scalability of service&lt;/li&gt;
                     &lt;li&gt;Real-time logging and system diagnosis&lt;/li&gt;
-                    &lt;li&gt;Secure remote upates&lt;/li&gt;
+                    &lt;li&gt;Secure remote updates&lt;/li&gt;
                 &lt;/ul&gt;
 
                 &lt;p&gt;
@@ -814,7 +814,7 @@
                     Integration with ordering data was achieved by writing a custom extract transform load application
                     utilising the Apache Camel
                     Library.
-                    This allowed The HPO to quickly, easily and robustly build a integration engine between the
+                    This allowed The HPO to quickly, easily and robustly build an integration engine between the
                     normalised OLTP database and
                     the OLAP database used for the warehouse.
                 &lt;/p&gt;
