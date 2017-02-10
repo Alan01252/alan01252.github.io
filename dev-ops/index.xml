@@ -76,7 +76,7 @@
                 &lt;p&gt;
                     In order to monitor the servers, Agricamera use OMD/Check_MK ( wrappers around Nagios ) which provide
                     a number of
-                    standard &#34;off the shelf checks&#34; on the system, as well as custom checks were written especially for
+                    standard &#34;off the shelf checks&#34; on the system, as well as custom checks which were written especially for
                     Agricamera&#39;s
                     software. Logstash and Kibana are used to give the ops team insight into customers problems with
                     bespoke
