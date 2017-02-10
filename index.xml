@@ -1172,13 +1172,6 @@ fmt.Println(&#34;Updated id&#34;,id)&lt;/code&gt;
                 &lt;/div&gt;
 
 
-                &lt;p&gt;This is part of a series of articles comparing the language of Go to PHP.&lt;/p&gt;
-
-                &lt;p&gt;
-                    One of the things I love about PHP is how flexible and easy to use in the language, want an array of
-                    strings just type
-                &lt;/p&gt;
-
                 &lt;h3 style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
                     Creating
                 &lt;/h3&gt;
