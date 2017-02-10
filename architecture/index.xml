@@ -118,6 +118,12 @@
                     such as sheep shearing world records.
                 &lt;/p&gt;
 
+                &lt;p&gt;
+                    The entire software platform is automatically monitored using Check MK and Nagios. Thorough
+                    logging via ElasticSearch/LogStash and Kibana allow quick resolutions of support queries and technical
+                    issues as they arise. Every server in the system is reproducible via Ansible.
+                &lt;/p&gt;
+
 
                 &lt;img src=&#34;http://alanhollis.com/agricamera-architecture.png&#34; class=&#34;img-rounded img-responsive&#34; style=&#34;width: 100%;&#34;&gt;
 
