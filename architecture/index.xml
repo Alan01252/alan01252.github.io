@@ -43,6 +43,90 @@
                             style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;Case Studies&lt;/h2&gt;
                 &lt;/div&gt;
 
+
+                &lt;div class=&#34;card-title&#34;&gt;
+                    &lt;h3
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                        Agricamera&lt;/h3&gt;
+                &lt;/div&gt;
+
+                &lt;p&gt;
+                    Agricamera is a start-up competing in the CCTV industry. The unique value proposition is that
+                    compared
+                    to other CCTV providers their solution requires no third party intervention and &#34;just works&#34;.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    In order to achieve this goal the architecture needed to tackle the following challenges:
+                &lt;ul&gt;
+                    &lt;li&gt;Communicate with cameras behind home routers without the need for customers needing to log on
+                        to the router
+                    &lt;/li&gt;
+                    &lt;li&gt;Allow support staff to diagnose networking problems&lt;/li&gt;
+                    &lt;li&gt;Platform must be available at all times&lt;/li&gt;
+                    &lt;li&gt;Customer must have best possible view of camera depending on where they current are, local
+                        network / remote viewing
+                    &lt;/li&gt;
+                    &lt;li&gt;Cameras must be accessible via the widest range of devices&lt;/li&gt;
+                    &lt;li&gt;Quickly scalable as customer base grows&lt;/li&gt;
+                &lt;/ul&gt;
+
+                &lt;p&gt;
+                    The bulk of the application is cloud base, with individual camera controllers running on
+                    Agricamera&#39;s
+                    customer networks. Every server is replicated more than one and high availability considered at all
+                    points.
+                    The application was designed to be internet based from the outset, differentiating Agricamera from
+                    most
+                    of its competitors.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    A single board computer is sold to each customer which sits on their network. The board is
+                    programmed to automatically discover
+                    cameras by scanning for appropriate mac addresses and then registering the cameras with the
+                    application
+                    servers via a web socket connection. This prevents the need to alter/configure their routers to
+                    allow
+                    remote access to their cameras.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    There are two methods by which the user can access their cameras. A web-based browser application,
+                    and a
+                    mobile application. The web-based application is written in PHP using require and knockout js. The
+                    mobile application is built using the Ionic Framework and Angular.js which allow rapid development
+                    across the largest number of devices whilst keeping one shared code base.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    Both the desktop and mobile applications are smart enough to work out whether the cameras are
+                    available
+                    on the local network and will pick the appropriate connection method depending on where the user is.
+                    Agricamera&#39;s admin staff are able to configure different resolution streams on a per connection
+                    and per device method. This ensures that the customers are always getting the best possible viewing
+                    experience from the
+                    platform.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    Each node application server runs on a single core, with Nginx used to balance the load between each
+                    of them. Additionally, traffic is balanced via
+                    Nginx for the web servers and the Nginx daemon running on the engines. This allows both vertical and
+                    horizontal scaling of engine
+                    servers. This is used to full effect when Agricamera&#39;s platform is used to stream popular events,
+                    such as sheep shearing world records.
+                &lt;/p&gt;
+
+
+                &lt;img src=&#34;http://alanhollis.com/agricamera-architecture.png&#34; class=&#34;img-rounded img-responsive&#34; style=&#34;width: 100%;&#34;&gt;
+
+                &lt;p&gt;
+                    At the time of writing the application is managing over 100 permanently connected camera controllers
+                    with over 300
+                    cameras streaming in real time.
+                &lt;/p&gt;
+
                 &lt;div class=&#34;card-title&#34;&gt;
                     &lt;h3
                             style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
