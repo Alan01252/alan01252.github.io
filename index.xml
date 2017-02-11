@@ -629,7 +629,7 @@
                 &lt;p&gt;
                     Agricamera&#39;s databases are automatically backed up to Amazon S3 using cron jobs. The cron job is monitored for successful execution
                     and the bucket queried periodically via Gof3er to make sure backups have been created  and stored successfully.
-                    The database restore process is also automated for simple &#34;worst case scenario&#34; data restorations.queries
+                    The database restore process is also automated for simple &#34;worst case scenario&#34; data restorations.
                 &lt;/p&gt;
             &lt;/div&gt;
         &lt;/div&gt;
