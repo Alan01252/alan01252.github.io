@@ -131,7 +131,7 @@
                 <p>
                     In order to monitor the servers, Agricamera use OMD/Check_MK ( wrappers around Nagios ) which provide
                     a number of
-                    standard "off the shelf checks" on the system, as well as custom checks which were written especially for
+                    standard "off the shelf checks" on each server, as well as the entire application platform. Custom checks were written especially for
                     Agricamera's
                     software. Logstash and Kibana are used to give the ops team insight into customers problems with
                     bespoke
@@ -141,7 +141,7 @@
                 </p>
 
                 <p>
-                    Agricameras databases are automatically backed up to Amazon S3 using cron jobs written in Ansible.
+                    Agricamera's databases are automatically backed up to Amazon S3 using cron jobs written in Ansible.
                     The database restore process is also automated for simple "worst case scenario" data restorations.
                 </p>
             </div>
