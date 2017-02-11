@@ -141,8 +141,9 @@
                 </p>
 
                 <p>
-                    Agricamera's databases are automatically backed up to Amazon S3 using cron jobs written in Ansible.
-                    The database restore process is also automated for simple "worst case scenario" data restorations.
+                    Agricamera's databases are automatically backed up to Amazon S3 using cron jobs. The cron job is monitored for successful execution
+                    and the bucket queries periodically via Gof3er to make sure backups have been created successfully.
+                    The database restore process is also automated for simple "worst case scenario" data restorations.queries
                 </p>
             </div>
         </div>
