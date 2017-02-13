@@ -57,6 +57,11 @@
   </url>
   
   <url>
+    <loc>http://alanhollis.com/javascript/node-js-testing-a-node-js-api-with-mocha-async-and-should/</loc>
+    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://alanhollis.com/php/solving-bugs-phpunit-git-bisect/</loc>
     <lastmod>2017-01-26T21:44:58+05:30</lastmod>
   </url>
@@ -124,6 +129,12 @@
   <url>
     <loc>http://alanhollis.com/it-strategy/</loc>
     <lastmod>2017-02-01T12:44:58+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://alanhollis.com/javascript/</loc>
+    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
