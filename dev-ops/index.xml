@@ -350,28 +350,28 @@ node app &amp;amp;&lt;/pre&gt;
                 &lt;pre class=&#34;prettyprint linenums lang-bash&#34;&gt;mkdir /var/www/frontend/log/
 sudo vi /etc/init/nodefrontendapp.conf
 &lt;/pre&gt;
-                Paste the following
-                &lt;div class=&#34;well&#34;&gt;
-                    description &#34;node.js front end server&#34;
-                    author &#34;kvz&#34;
+                &lt;p&gt;
+                And paste in the following the following
+                &lt;/p&gt;
+                &lt;pre class=&#34;well&#34;&gt;
+description &#34;node.js front end server&#34;
+author &#34;kvz&#34;
 
-                    start on startup
-                    stop on shutdown
+start on startup
+stop on shutdown
 
-                    script
-                    # We found $HOME is needed. Without it, we ran into problems
-                    export HOME=&#34;/root&#34;
+script
+export HOME=&#34;/root&#34;
 
-                    exec /usr/bin/node /var/www/frontend/app.js 2&gt;&amp;1 &gt;&gt; /var/www/frontend/log/node.log
-                    end script
-                &lt;/div&gt;
+exec /usr/bin/node /var/www/frontend/app.js 2&gt;&amp;1 &gt;&gt; /var/www/frontend/log/node.log
+end script
+                &lt;/pre&gt;
                 Save and exit vi and run the following commands
                 &lt;pre class=&#34;prettyprint linenums&#34;&gt;sudo chmod u+x /etc/init/nodefrontendapp.conf
 sudo start nodefrontendapp&lt;/pre&gt;
 
-                *If you get an unknown job error here check the &#34; have been pasted correctly.
+                &lt;p&gt;Step 5: Set up a cloned server&lt;/p&gt;
 
-                &lt;strong&gt;Step 5: Set up a cloned server&lt;/strong&gt;
                 &lt;pre class=&#34;prettyprint linenums lang-bash&#34;&gt;git init .
 git add .
 git commit -m &#34;Inital Commit&#34;
