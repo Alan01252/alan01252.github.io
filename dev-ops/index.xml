@@ -28,7 +28,8 @@
                         DevOps&lt;/h2&gt;
                 &lt;/div&gt;
                 &lt;p&gt;
-                    &lt;a href=&#34;#case_studies&#34;&gt;Case Studies &lt;/a&gt;| &lt;a href=&#34;#tools&#34;&gt;Tools&lt;/a&gt;
+                    &lt;a href=&#34;#case_studies&#34;&gt;Case Studies &lt;/a&gt;| &lt;a href=&#34;#tools&#34;&gt;Tools&lt;/a&gt; | &lt;a href=&#34;#tutorials&#34;&gt;
+                    Tutorials&lt;/a&gt;
                 &lt;/p&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -74,9 +75,11 @@
                 &lt;/p&gt;
 
                 &lt;p&gt;
-                    In order to monitor the servers, Agricamera use OMD/Check_MK ( wrappers around Nagios ) which provide
+                    In order to monitor the servers, Agricamera use OMD/Check_MK ( wrappers around Nagios ) which
+                    provide
                     a number of
-                    standard &#34;off the shelf checks&#34; on each server, as well as the entire application platform. Custom checks were written especially for
+                    standard &#34;off the shelf checks&#34; on the system, as well as custom checks which were written
+                    especially for
                     Agricamera&#39;s
                     software. Logstash and Kibana are used to give the ops team insight into customers problems with
                     bespoke
@@ -86,8 +89,7 @@
                 &lt;/p&gt;
 
                 &lt;p&gt;
-                    Agricamera&#39;s databases are automatically backed up to Amazon S3 using cron jobs. The cron job is monitored for successful execution
-                    and the bucket queried periodically via Gof3er to make sure backups have been created  and stored successfully.
+                    Agricameras databases are automatically backed up to Amazon S3 using cron jobs written in Ansible.
                     The database restore process is also automated for simple &#34;worst case scenario&#34; data restorations.
                 &lt;/p&gt;
             &lt;/div&gt;
@@ -127,6 +129,319 @@
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+
+    &lt;div class=&#34;col&#34;&gt;
+        &lt;div class=&#34;card&#34; style=&#34;font-family: &#39;Open Sans&#39;, sans-serif;&#34;&gt;
+
+            &lt;div class=&#34;card-block&#34;&gt;
+
+                &lt;div class=&#34;card-title&#34;&gt;
+                    &lt;h2
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                        &lt;a name=&#34;tutorials&#34;&gt;Tutorials&lt;/a&gt;&lt;/h2&gt;
+                &lt;/div&gt;
+
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a href=&#34;http://alanhollis.com/creating-a-highly-available-minimum-viable-architecture&#34;&gt;Creating a highly available
+                        minimum viable
+                        architecture on AWS (Oct 2013)&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Creating a highly available minimum viable architecture on AWS</title>
+      <link>http://alanhollis.com/dev-ops/creating-a-highly-available-minimum-viable-architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://alanhollis.com/dev-ops/creating-a-highly-available-minimum-viable-architecture/</guid>
+      <description>&lt;style&gt;
+    h2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-family: &#39;Open Sans&#39;, sans-serif;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+&lt;/style&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+
+    &lt;div class=&#34;col&#34;&gt;
+        &lt;div class=&#34;card&#34; style=&#34;font-family: &#39;Open Sans&#39;, sans-serif;&#34;&gt;
+
+            &lt;div class=&#34;card-block&#34;&gt;
+
+                &lt;div class=&#34;card-title&#34;&gt;
+                    &lt;h2
+                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                        Creating a highly available minimum viable architecture on AWS
+                    &lt;/h2&gt;
+                &lt;/div&gt;
+
+                &lt;p&gt;This will be the first in a series of posts where I go through the steps of creating a highly
+                    available minimum viable architecture.&lt;/p&gt;
+
+                To see the results of the step by step guide in video form &lt;a href=&#34;#video&#34;&gt;click here&lt;/a&gt;
+
+                &lt;h2 style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                    &lt;strong&gt;Why&lt;/strong&gt;&lt;/h2&gt;
+                &lt;p&gt;
+                    High availability is becoming more and more important. The Internet gives people the opportunity to
+                    shop/work and communicate with more flexibility than any other time in human history. Software is
+                    expected to work, and it&#39;s expected to work 100% of the time. Businesses can not afford to have the
+                    negative exposure which a service not being available brings.
+                &lt;/p&gt;
+                &lt;p&gt;
+                    I&#39;m using this series of blog posts to increase my knowledge of Amazon Web Services and my Linux
+                    administration skills. Although I&#39;ve had exposure to solving this style of project before, I want to
+                    learn
+                    and increase my skill set further, whilst sharing knowledge gained with a wider community.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    All and any feedback would be greatly appreciated.
+                &lt;/p&gt;
+
+                &lt;h2 style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                    Technologies&lt;/h2&gt;
+
+                &lt;p&gt;
+                    For these blog posts I&#39;m going to create the minimum viable architecture using the following stack.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    I&#39;ll be using Amazon web services to handle the hardware management, and using many of their
+                    software
+                    products to achieve the highly available architecture.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    The rest of the software stack will use Ubuntu, Node.js, Postgresql and Git. I&#39;m using these
+                    technologies as
+                    they&#39;re very popular in the web development world, simple to install and have been designed to work
+                    at
+                    scale.
+                &lt;/p&gt;
+
+                &lt;h2 style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                    Design&lt;/h2&gt;
+                &lt;p&gt;
+                    Before delving into building the application I took a while to think about the minimum viable
+                    architecture
+                    needed to produce highly available software stack. I also wanted to design the application in a
+                    scalable
+                    fashion, taking on advice from other developers and using my own personal experiences.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    The stack will be split into two sections, a dumb side will take care of rendering and displaying
+                    the
+                    data
+                    to user, and a clever side which will take of performing complex data manipulation.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    &lt;a href=&#34;http://alanhollis.com/hamva2.png&#34;&gt;&lt;img
+                            class=&#34;aligncenter size-full wp-image-937&#34; title=&#34;hamva&#34;
+                            src=&#34;http://alanhollis.com/hamva2.png&#34; alt=&#34;&#34;/&gt;&lt;/a&gt;
+                &lt;/p&gt;
+
+
+                &lt;p&gt;
+                    Amazon Cloudfront and Route 53 are used to speed up delivery of the website, and manage DNS
+                    redundancy,
+                    which from personal experience can be tricky to get to grips with. I&#39;m more than happy to pass this
+                    responsibility off to the team at Amazon.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    The next level down will consist of two web servers. These web servers will handle
+                    incoming
+                    requests, communicate with web services and render the data returned.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    One step further down and we&#39;re into the clever parts of the application, these consist of a
+                    collection
+                    of
+                    web services. These can either be stand alone instances or several combined applications running on
+                    one
+                    instance, the important part is that during deployment the web services are kept in synchronization
+                    across
+                    zones.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    The final part of the application are the database servers which will be split across zones and keep
+                    in
+                    synchronization via Postgresqls built in replication.
+                &lt;/p&gt;
+
+                &lt;h2 style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
+                    Putting the dumb part together&lt;/h2&gt;
+
+                &lt;p&gt;
+                    This section will be a quick step by step guide on how I put the dumb side of this highly available
+                    architecture together.
+                &lt;/p&gt;
+                &lt;a name=&#34;stepbystep&#34;&gt;&lt;/a&gt;
+                &lt;p&gt;Step 1: Create your EC2 instances&lt;/p&gt;
+                &lt;ol&gt;
+                    &lt;li&gt;Sign up for amazon web services &lt;a href=&#34;http://aws.amazon.com/console/&#34;&gt;http://aws.amazon.com/console/&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;Login to aws&lt;/li&gt;
+                    &lt;li&gt;Click on EC2&lt;/li&gt;
+                    &lt;li&gt;Click on Launch instance&lt;/li&gt;
+                    &lt;li&gt;Keep Classic Wizard selected and click Continue&lt;/li&gt;
+                    &lt;li&gt;Click select next to Ubuntu server 12.04.1 LTS&lt;/li&gt;
+                    &lt;li&gt;Keep the default options for number of instances and instance type and click Continue.&lt;/li&gt;
+                    &lt;li&gt;Keep the advanced options the same and click Continue&lt;/li&gt;
+                    &lt;li&gt;Keep the storage device configuration the same and click Continue&lt;/li&gt;
+                    &lt;li&gt;Ignore setting any tags and click Continue&lt;/li&gt;
+                    &lt;li&gt;Enter a name for your key pair, download and save to your ~/.ssh/ directory&lt;/li&gt;
+                    &lt;li&gt;Give your security group a name and enter 80 in Port range, keep source as 0.0.0.0/0&lt;/li&gt;
+                    &lt;li&gt;Confirm all the details and click launch&lt;/li&gt;
+                    &lt;li&gt;Select a new region and repeat steps 4- 13&lt;/li&gt;
+                &lt;/ol&gt;
+                &lt;p&gt;Step 2: SSH to one of the machine&lt;/p&gt;
+
+                &lt;p&gt;
+                    On your desktop machine run the following commands
+                &lt;pre class=&#34;prettyprint linenums lang-bsh&#34;&gt;sudo chmod 600 ~/.ssh/ec2-keypairname.pem
+ssh-add ec2-keypairname.pem
+ssh -v ubuntu@[PublicDNSOfInstance1]&lt;/pre&gt;
+                &lt;p&gt;Step 3: Create a simple node.js application
+                &lt;/p&gt;
+                &lt;pre class=&#34;prettyprint linenums lang-bash&#34;&gt;sudo locale-gen en_GB.UTF-8
+sudo apt-get update
+sudo apt-get install git
+sudo apt-get install nodejs
+sudo apt-get install npm
+sudo mkdir -p /var/www/frontend/
+sudo chown -R ubuntu:ubuntu /var/www/frontend/
+cd /var/www/frontend/
+npm install express
+./node_modules/express/bin/express
+//Press y to destination is not empty, continue?
+npm install
+//Unable to open port 80 directly, use iptables to redirect port 80 traffic to port 3000
+sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to 3000
+node app &amp;amp;&lt;/pre&gt;
+                At this point you should be able to navigate to the public DNS entry in browser and see your node app
+                running.
+                &lt;/p&gt;
+
+                &lt;p&gt;Step 4: Create an upstart script for the application&lt;/p&gt;
+                &lt;pre class=&#34;prettyprint linenums lang-bash&#34;&gt;mkdir /var/www/frontend/log/
+sudo vi /etc/init/nodefrontendapp.conf
+&lt;/pre&gt;
+                Paste the following
+                &lt;div class=&#34;well&#34;&gt;
+                    description &#34;node.js front end server&#34;
+                    author &#34;kvz&#34;
+
+                    start on startup
+                    stop on shutdown
+
+                    script
+                    # We found $HOME is needed. Without it, we ran into problems
+                    export HOME=&#34;/root&#34;
+
+                    exec /usr/bin/node /var/www/frontend/app.js 2&gt;&amp;1 &gt;&gt; /var/www/frontend/log/node.log
+                    end script
+                &lt;/div&gt;
+                Save and exit vi and run the following commands
+                &lt;pre class=&#34;prettyprint linenums&#34;&gt;sudo chmod u+x /etc/init/nodefrontendapp.conf
+sudo start nodefrontendapp&lt;/pre&gt;
+
+                *If you get an unknown job error here check the &#34; have been pasted correctly.
+
+                &lt;strong&gt;Step 5: Set up a cloned server&lt;/strong&gt;
+                &lt;pre class=&#34;prettyprint linenums lang-bash&#34;&gt;git init .
+git add .
+git commit -m &#34;Inital Commit&#34;
+ssh-keygen -t dsa
+//use default directory
+cd ~/.ssh/
+cat id_dsa.pub &amp;gt;&amp;gt; authorized_keys
+//keep default options
+exit&lt;/pre&gt;
+                &lt;p&gt;
+                    On your desktop machine copy the ssh key to the other instance via ssh
+                &lt;/p&gt;
+                &lt;pre class=&#34;prettyprint linenums lang-bash&#34;&gt;scp ubuntu@[PublicDNSOfInstance1:/home/ubuntu/.ssh/id_dsa .
+scp id_dsa ubuntu@[PublicDNSOfInstance2]:/home/ubuntu/.ssh/id_dsa&lt;/pre&gt;
+                &lt;p&gt;Now we&#39;ll clone our basic application onto the second web server&lt;/p&gt;
+                &lt;pre class=&#34;prettyprint linenums lang-bsh&#34;&gt;ssh ubuntu@[PublicDNSOfInstance2]
+sudo locale-gen en_GB.UTF-8
+sudo apt-get update
+sudo apt-get install git
+sudo apt-get install nodejs
+sudo apt-get install npm
+sudo mkdir -p /var/www/frontend/
+sudo chown -R ubuntu:ubuntu /var/www/frontend/
+cd /var/www/frontend/
+git clone ubuntu@[IpAddresOfInstance1]:/var/www/frontend/.
+sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to 3000&lt;/pre&gt;
+                Create the upstart script as mentioned in Step 4 for this server too.
+
+                &lt;p&gt;
+                    Now the simple node applications are up and running on two seperate servers, the last part is
+                    getting
+                    them
+                    to work under out domain name.
+                &lt;/p&gt;
+
+                &lt;p&gt;Step 6: Setting up Route 53&lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Go back to the AWS console&lt;/li&gt;
+                    &lt;li&gt;Navigate to first region with a running instance&lt;/li&gt;
+                    &lt;li&gt;Click elastic IPs&lt;/li&gt;
+                    &lt;li&gt;Click Allocate New Address&lt;/li&gt;
+                    &lt;li&gt;Click Yes, Allocate&lt;/li&gt;
+                    &lt;li&gt;Click Associate Address&lt;/li&gt;
+                    &lt;li&gt;Select instance&lt;/li&gt;
+                    &lt;li&gt;Make a note of the IP address and public DNS&lt;/li&gt;
+                    &lt;li&gt;Repeat for the other region&lt;/li&gt;
+                &lt;/ul&gt;
+                *Note from this point on you&#39;ll have to SSH in via the elastic ip address / elastic public DNS
+                &lt;ul&gt;
+                    &lt;li&gt;Cick Services dropdown and choose route 53&lt;/li&gt;
+                    &lt;li&gt;Click Create Hosted Zone&lt;/li&gt;
+                    &lt;li&gt;Enter the Domain name&lt;/li&gt;
+                &lt;/ul&gt;
+                *You&#39;ll need to set the dns entries for your domain name to point to the four domains listed under
+                Delegation set
+                &lt;ul&gt;
+                    &lt;li&gt;Click create record set&lt;/li&gt;
+                    &lt;li&gt;Change TYPE to A Name and enter the two elastic IP addresses above&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;h2&gt;Results&lt;/h2&gt;
+
+                We have a very simple aws server which is redunant, I&#39;ve produced a quick screencast to show the result.
+
+                &lt;a name=&#34;video&#34;&gt;&lt;/a&gt;
+                http://www.youtube.com/watch?v=uVElQXMBQQM
+
+                If you&#39;re interested in following this experiment further please enter your email below.
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
 </description>
     </item>
     

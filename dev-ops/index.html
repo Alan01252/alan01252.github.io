@@ -83,7 +83,8 @@
                         DevOps</h2>
                 </div>
                 <p>
-                    <a href="#case_studies">Case Studies </a>| <a href="#tools">Tools</a>
+                    <a href="#case_studies">Case Studies </a>| <a href="#tools">Tools</a> | <a href="#tutorials">
+                    Tutorials</a>
                 </p>
             </div>
         </div>
@@ -129,9 +130,11 @@
                 </p>
 
                 <p>
-                    In order to monitor the servers, Agricamera use OMD/Check_MK ( wrappers around Nagios ) which provide
+                    In order to monitor the servers, Agricamera use OMD/Check_MK ( wrappers around Nagios ) which
+                    provide
                     a number of
-                    standard "off the shelf checks" on each server, as well as the entire application platform. Custom checks were written especially for
+                    standard "off the shelf checks" on the system, as well as custom checks which were written
+                    especially for
                     Agricamera's
                     software. Logstash and Kibana are used to give the ops team insight into customers problems with
                     bespoke
@@ -141,8 +144,7 @@
                 </p>
 
                 <p>
-                    Agricamera's databases are automatically backed up to Amazon S3 using cron jobs. The cron job is monitored for successful execution
-                    and the bucket queried periodically via Gof3er to make sure backups have been created  and stored successfully.
+                    Agricameras databases are automatically backed up to Amazon S3 using cron jobs written in Ansible.
                     The database restore process is also automated for simple "worst case scenario" data restorations.
                 </p>
             </div>
@@ -176,6 +178,31 @@
                     running for any
                     type of technology project.
                 </p>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col">
+        <div class="card" style="font-family: 'Open Sans', sans-serif;">
+
+            <div class="card-block">
+
+                <div class="card-title">
+                    <h2
+                            style="font-weight:bold;font-family: 'Nixie One'; margin-bottom: 20px">
+                        <a name="tutorials">Tutorials</a></h2>
+                </div>
+
+                <ul>
+                    <li><a href="/creating-a-highly-available-minimum-viable-architecture">Creating a highly available
+                        minimum viable
+                        architecture on AWS (Oct 2013)</a></li>
+                </ul>
 
 
             </div>
