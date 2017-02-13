@@ -231,7 +231,7 @@
                 &lt;/p&gt;
 
                 &lt;p&gt;
-                    The rest of the software stack will use Ubuntu, Node.js, Postgresql and Git. I&#39;m using these
+                    The rest of the software stack will use Ubuntu, Node.js and Git. I&#39;m using these
                     technologies as
                     they&#39;re very popular in the web development world, simple to install and have been designed to work
                     at
@@ -249,23 +249,8 @@
                 &lt;/p&gt;
 
                 &lt;p&gt;
-                    The stack will be split into two sections, a dumb side will take care of rendering and displaying
-                    the
-                    data
-                    to user, and a clever side which will take of performing complex data manipulation.
-                &lt;/p&gt;
-
-                &lt;p&gt;
-                    &lt;a href=&#34;http://alanhollis.com/hamva2.png&#34;&gt;&lt;img
-                            class=&#34;aligncenter size-full wp-image-937&#34; title=&#34;hamva&#34;
-                            src=&#34;http://alanhollis.com/hamva2.png&#34; alt=&#34;&#34;/&gt;&lt;/a&gt;
-                &lt;/p&gt;
-
-
-                &lt;p&gt;
                     Amazon Cloudfront and Route 53 are used to speed up delivery of the website, and manage DNS
-                    redundancy,
-                    which from personal experience can be tricky to get to grips with. I&#39;m more than happy to pass this
+                    , which from personal experience can be tricky to get to right. I&#39;m more than happy to pass this
                     responsibility off to the team at Amazon.
                 &lt;/p&gt;
 
@@ -275,30 +260,11 @@
                     requests, communicate with web services and render the data returned.
                 &lt;/p&gt;
 
-                &lt;p&gt;
-                    One step further down and we&#39;re into the clever parts of the application, these consist of a
-                    collection
-                    of
-                    web services. These can either be stand alone instances or several combined applications running on
-                    one
-                    instance, the important part is that during deployment the web services are kept in synchronization
-                    across
-                    zones.
-                &lt;/p&gt;
 
-                &lt;p&gt;
-                    The final part of the application are the database servers which will be split across zones and keep
-                    in
-                    synchronization via Postgresqls built in replication.
-                &lt;/p&gt;
 
                 &lt;h2 style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
-                    Putting the dumb part together&lt;/h2&gt;
+                    Putting it together&lt;/h2&gt;
 
-                &lt;p&gt;
-                    This section will be a quick step by step guide on how I put the dumb side of this highly available
-                    architecture together.
-                &lt;/p&gt;
                 &lt;a name=&#34;stepbystep&#34;&gt;&lt;/a&gt;
                 &lt;p&gt;Step 1: Create your EC2 instances&lt;/p&gt;
                 &lt;ol&gt;
