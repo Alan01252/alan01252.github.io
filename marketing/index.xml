@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marketings on Alan Hollis</title>
-    <link>http://alanhollis.com/marketing/index.xml</link>
+    <link>http://alanhollis.com/marketing/</link>
     <description>Recent content in Marketings on Alan Hollis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Feb 2017 12:44:58 +0530</lastBuildDate>
-    <atom:link href="http://alanhollis.com/marketing/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://alanhollis.com/marketing/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Marketing</title>
@@ -15,22 +17,7 @@
       <pubDate>Wed, 01 Feb 2017 12:44:58 +0530</pubDate>
       
       <guid>http://alanhollis.com/marketing/</guid>
-      <description>&lt;div class=&#34;row&#34;&gt;
-
-    &lt;div class=&#34;col&#34;&gt;
-        &lt;div class=&#34;card&#34; style=&#34;font-family: &#39;Open Sans&#39;, sans-serif;&#34;&gt;
-
-            &lt;div class=&#34;card-block&#34;&gt;
-
-                &lt;div class=&#34;card-title&#34;&gt;
-                    &lt;h2
-                            style=&#34;font-weight:bold;font-family: &#39;Nixie One&#39;; margin-bottom: 20px&#34;&gt;
-                        Marketing&lt;/h2&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;</description>
+      <description>Marketing     </description>
     </item>
     
   </channel>
