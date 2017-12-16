@@ -17,7 +17,7 @@
       <pubDate>Wed, 01 Feb 2017 12:44:58 +0530</pubDate>
       
       <guid>http://alanhollis.com/dev-ops/</guid>
-      <description>DevOps   Case Studies | Tools     Case Studies  Agricamera.co.uk   Agricamera&#39;s entire software environment was built with DevOps in mind from the start. Before any new software was written careful thought was taken to make sure the development environments were immediately reproducible by issuing just a couple of commands using Vagrant and Ansible. All of Agricamera&#39;s services are cloud based.  This forethought meant deploying to production was just an extension of the development process.</description>
+      <description>DevOps   Case Studies | Tools| Tutorials     Case Studies  Agricamera.co.uk   Agricamera&#39;s entire software environment was built with DevOps in mind from the start. Before any new software was written careful thought was taken to make sure the development environments were immediately reproducible by issuing just a couple of commands using Vagrant and Ansible. All of Agricamera&#39;s services are cloud based.  This forethought meant deploying to production was just an extension of the development process.</description>
     </item>
     
     <item>
