@@ -1,170 +1,72 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>http://alanhollis.com/thanks/</loc>
     <lastmod>2017-02-05T21:44:58+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://alanhollis.com/testimonials/</loc>
     <lastmod>2017-02-03T21:44:58+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://alanhollis.com/about-me/</loc>
     <lastmod>2017-02-01T12:44:58+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://alanhollis.com/app-building/</loc>
     <lastmod>2017-02-01T12:44:58+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://alanhollis.com/architecture/</loc>
     <lastmod>2017-02-01T12:44:58+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://alanhollis.com/dev-ops/</loc>
     <lastmod>2017-02-01T12:44:58+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://alanhollis.com/it-strategy/</loc>
     <lastmod>2017-02-01T12:44:58+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://alanhollis.com/marketing/</loc>
     <lastmod>2017-02-01T12:44:58+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://alanhollis.com/software-development/</loc>
     <lastmod>2017-02-01T12:44:58+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>http://alanhollis.com/</loc>
+    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
+  </url><url>
     <loc>http://alanhollis.com/php/comparing-go-with-php/</loc>
     <lastmod>2017-01-26T21:44:58+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://alanhollis.com/php/go-compared-with-php-arrays-and-slices/</loc>
-    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://alanhollis.com/javascript/node-js-testing-a-node-js-api-with-mocha-async-and-should/</loc>
-    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://alanhollis.com/php/solving-bugs-phpunit-git-bisect/</loc>
-    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://alanhollis.com/contact/</loc>
     <lastmod>2017-01-26T21:44:58+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://alanhollis.com/freelancing/first-month-freelancing/</loc>
     <lastmod>2017-01-26T21:44:58+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://alanhollis.com/freelancing/my-first-year-freelancing/</loc>
     <lastmod>2017-01-26T21:44:58+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://alanhollis.com/freelancing/php-developer/</loc>
     <lastmod>2017-01-26T21:44:58+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://alanhollis.com/about-me/</loc>
-    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alanhollis.com/</loc>
-    <lastmod>2017-02-05T21:44:58+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alanhollis.com/app-building/</loc>
-    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alanhollis.com/architecture/</loc>
-    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alanhollis.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alanhollis.com/dev-ops/creating-a-highly-available-minimum-viable-architecture/</loc>
-  </url>
-  
-  <url>
-    <loc>http://alanhollis.com/dev-ops/</loc>
-    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://alanhollis.com/freelancing/</loc>
     <lastmod>2017-01-26T21:44:58+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alanhollis.com/it-strategy/</loc>
-    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>http://alanhollis.com/php/go-compared-with-php-arrays-and-slices/</loc>
+    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
+  </url><url>
     <loc>http://alanhollis.com/javascript/</loc>
     <lastmod>2017-01-26T21:44:58+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alanhollis.com/marketing/</loc>
-    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>http://alanhollis.com/javascript/node-js-testing-a-node-js-api-with-mocha-async-and-should/</loc>
+    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
+  </url><url>
     <loc>http://alanhollis.com/php/</loc>
     <lastmod>2017-01-26T21:44:58+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://alanhollis.com/software-development/</loc>
-    <lastmod>2017-02-01T12:44:58+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>http://alanhollis.com/php/solving-bugs-phpunit-git-bisect/</loc>
+    <lastmod>2017-01-26T21:44:58+05:30</lastmod>
+  </url><url>
+    <loc>http://alanhollis.com/categories/</loc>
+  </url><url>
     <loc>http://alanhollis.com/tags/</loc>
-    <priority>0</priority>
   </url>
-  
 </urlset>

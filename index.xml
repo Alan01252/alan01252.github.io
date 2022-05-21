@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alan Hollis</title>
@@ -6,18 +6,14 @@
     <description>Recent content on Alan Hollis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Feb 2017 21:44:58 +0530</lastBuildDate>
-    
-	<atom:link href="http://alanhollis.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 26 Jan 2017 21:44:58 +0530</lastBuildDate><atom:link href="http://alanhollis.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>contact</title>
       <link>http://alanhollis.com/thanks/</link>
       <pubDate>Sun, 05 Feb 2017 21:44:58 +0530</pubDate>
       
       <guid>http://alanhollis.com/thanks/</guid>
-      <description>Thanks!  Thank you for getting in contact. I&#39;ll reply as soon as I can.     </description>
+      <description> Thanks!  Thank you for getting in contact. I&#39;ll reply as soon as I can.     </description>
     </item>
     
     <item>
@@ -45,7 +41,7 @@ Jemma Pink: Director of Corporate Systems, Six Degrees Technology Group Ltd  I d
       <pubDate>Wed, 01 Feb 2017 12:44:58 +0530</pubDate>
       
       <guid>http://alanhollis.com/app-building/</guid>
-      <description>App Building     </description>
+      <description> App Building     </description>
     </item>
     
     <item>
@@ -72,7 +68,7 @@ Jemma Pink: Director of Corporate Systems, Six Degrees Technology Group Ltd  I d
       <pubDate>Wed, 01 Feb 2017 12:44:58 +0530</pubDate>
       
       <guid>http://alanhollis.com/it-strategy/</guid>
-      <description>IT Strategy      </description>
+      <description> IT Strategy      </description>
     </item>
     
     <item>
@@ -81,7 +77,7 @@ Jemma Pink: Director of Corporate Systems, Six Degrees Technology Group Ltd  I d
       <pubDate>Wed, 01 Feb 2017 12:44:58 +0530</pubDate>
       
       <guid>http://alanhollis.com/marketing/</guid>
-      <description>Marketing     </description>
+      <description> Marketing     </description>
     </item>
     
     <item>
@@ -101,37 +97,7 @@ Assist-CKD.org   Assist-CKD is a quality improvement project supported by The He
       
       <guid>http://alanhollis.com/php/comparing-go-with-php/</guid>
       <description>Go compared with php. Arrays and slices  This is part of a series of articles comparing the language of Go to PHP
-Variable assignment  In PHP variable assigned is very simple : $myString = &#34;My String&#34;;   In Go this is a little different. Go is statically typed meaning those familiar with other statically typed languages would expect to see something like String myString = &#34;My String&#34;;   In Go the type can be inferred from the expression.</description>
-    </item>
-    
-    <item>
-      <title>Go compared with PHP arrays and slices</title>
-      <link>http://alanhollis.com/php/go-compared-with-php-arrays-and-slices/</link>
-      <pubDate>Thu, 26 Jan 2017 21:44:58 +0530</pubDate>
-      
-      <guid>http://alanhollis.com/php/go-compared-with-php-arrays-and-slices/</guid>
-      <description>Go compared with php. Arrays and slices  Creating   Create an array in PHP $myStringArray = [&#34;One&#34;,&#34;Two&#34;,&#34;Three&#34;];   In Go creating the above is a little more verbose and like variable assignment above there&#39;s also multiple ways to create a slice. The most similar way to that of PHP is as follows. myStringArray := []string{&#34;One&#34;,&#34;Two&#34;,&#34;Three&#34;}  Appending   Things become a little trickier when you want to append to an array.</description>
-    </item>
-    
-    <item>
-      <title>Node.js: Testing a Node.js API with Mocha, Async, and Should</title>
-      <link>http://alanhollis.com/javascript/node-js-testing-a-node-js-api-with-mocha-async-and-should/</link>
-      <pubDate>Thu, 26 Jan 2017 21:44:58 +0530</pubDate>
-      
-      <guid>http://alanhollis.com/javascript/node-js-testing-a-node-js-api-with-mocha-async-and-should/</guid>
-      <description>Node.js: Testing a Node.js API with Mocha, Async, and Should   Application Overview
- The API is broken down into bundles, each bundle is stored in a separate folder and contains a model and a controller.  The application has the following directory structure. -/bundles/ -/bundles/foo/model.js -/bundles/foo/controller.js -/bundles/bar/model.js -/bundles/bar/controller.js  The controllers extend from a base module called controller.js which implements the create/review/update/delete code. Testing the API
- The rest of this article will concentrate on the DELETE api call.</description>
-    </item>
-    
-    <item>
-      <title>Solving bugs with phpunit and git bisect</title>
-      <link>http://alanhollis.com/php/solving-bugs-phpunit-git-bisect/</link>
-      <pubDate>Thu, 26 Jan 2017 21:44:58 +0530</pubDate>
-      
-      <guid>http://alanhollis.com/php/solving-bugs-phpunit-git-bisect/</guid>
-      <description>Solving Bugs With Php Unit and Git Bisect  Sometimes as developers we don’t always catch everything in our test, bugs being the tricky things they are will always slip through the net. When they do we need to fix them, but where do we begin?
-The answer, PHPUnit + git bisect, using git bisect and PHPUnit we can quickly narrow down what commit caused the bug, which should allow us to find what caused and therefore solve the bug really quickly.</description>
+Variable assignment  In PHP variable assigned is very simple : $myString = &#34;My String&#34;;   In Go this is a little different. Go is statically typed meaning those familiar with other statically typed languages would expect to see something like String myString = &#34;My String&#34;</description>
     </item>
     
     <item>
@@ -140,7 +106,7 @@ The answer, PHPUnit + git bisect, using git bisect and PHPUnit we can quickly na
       <pubDate>Thu, 26 Jan 2017 21:44:58 +0530</pubDate>
       
       <guid>http://alanhollis.com/contact/</guid>
-      <description>Contact Me     Send     </description>
+      <description> Contact Me     Send     </description>
     </item>
     
     <item>
@@ -173,13 +139,33 @@ Why choose me as your PHP developer?  I&#39;m an advanced PHP developer with man
     </item>
     
     <item>
-      <title>Creating a highly available minimum viable architecture on AWS</title>
-      <link>http://alanhollis.com/dev-ops/creating-a-highly-available-minimum-viable-architecture/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Go compared with PHP arrays and slices</title>
+      <link>http://alanhollis.com/php/go-compared-with-php-arrays-and-slices/</link>
+      <pubDate>Thu, 26 Jan 2017 21:44:58 +0530</pubDate>
       
-      <guid>http://alanhollis.com/dev-ops/creating-a-highly-available-minimum-viable-architecture/</guid>
-      <description>h2 { margin-top: 20px; margin-bottom: 20px; } h3 { font-size: 20px; font-family: &#39;Open Sans&#39;, sans-serif; margin-top: 20px; margin-bottom: 20px; }  Creating a highly available minimum viable architecture on AWS   This will be the first in a series of posts where I go through the steps of creating a highly available minimum viable architecture.
-To see the results of the step by step guide in video form click here Why  High availability is becoming more and more important.</description>
+      <guid>http://alanhollis.com/php/go-compared-with-php-arrays-and-slices/</guid>
+      <description>Go compared with php. Arrays and slices  Creating   Create an array in PHP $myStringArray = [&#34;One&#34;,&#34;Two&#34;,&#34;Three&#34;];   In Go creating the above is a little more verbose and like variable assignment above there&#39;s also multiple ways to create a slice. The most similar way to that of PHP is as follows. myStringArray := []string{&#34;One&#34;,&#34;Two&#34;,&#34;Three&#34;}  Appending   Things become a little trickier when you want to append to an array.</description>
+    </item>
+    
+    <item>
+      <title>Node.js: Testing a Node.js API with Mocha, Async, and Should</title>
+      <link>http://alanhollis.com/javascript/node-js-testing-a-node-js-api-with-mocha-async-and-should/</link>
+      <pubDate>Thu, 26 Jan 2017 21:44:58 +0530</pubDate>
+      
+      <guid>http://alanhollis.com/javascript/node-js-testing-a-node-js-api-with-mocha-async-and-should/</guid>
+      <description>Node.js: Testing a Node.js API with Mocha, Async, and Should   Application Overview
+ The API is broken down into bundles, each bundle is stored in a separate folder and contains a model and a controller.  The application has the following directory structure. -/bundles/ -/bundles/foo/model.js -/bundles/foo/controller.js -/bundles/bar/model.js -/bundles/bar/controller.js  The controllers extend from a base module called controller.js which implements the create/review/update/delete code. Testing the API
+ The rest of this article will concentrate on the DELETE api call.</description>
+    </item>
+    
+    <item>
+      <title>Solving bugs with phpunit and git bisect</title>
+      <link>http://alanhollis.com/php/solving-bugs-phpunit-git-bisect/</link>
+      <pubDate>Thu, 26 Jan 2017 21:44:58 +0530</pubDate>
+      
+      <guid>http://alanhollis.com/php/solving-bugs-phpunit-git-bisect/</guid>
+      <description>Solving Bugs With Php Unit and Git Bisect  Sometimes as developers we don’t always catch everything in our test, bugs being the tricky things they are will always slip through the net. When they do we need to fix them, but where do we begin?
+The answer, PHPUnit + git bisect, using git bisect and PHPUnit we can quickly narrow down what commit caused the bug, which should allow us to find what caused and therefore solve the bug really quickly.</description>
     </item>
     
   </channel>

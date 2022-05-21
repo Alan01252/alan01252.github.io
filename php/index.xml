@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Phps on Alan Hollis</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Phps on Alan Hollis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Jan 2017 21:44:58 +0530</lastBuildDate>
-    
-	<atom:link href="http://alanhollis.com/php/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 26 Jan 2017 21:44:58 +0530</lastBuildDate><atom:link href="http://alanhollis.com/php/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Comparing go with PHP</title>
       <link>http://alanhollis.com/php/comparing-go-with-php/</link>
@@ -18,7 +14,7 @@
       
       <guid>http://alanhollis.com/php/comparing-go-with-php/</guid>
       <description>Go compared with php. Arrays and slices  This is part of a series of articles comparing the language of Go to PHP
-Variable assignment  In PHP variable assigned is very simple : $myString = &#34;My String&#34;;   In Go this is a little different. Go is statically typed meaning those familiar with other statically typed languages would expect to see something like String myString = &#34;My String&#34;;   In Go the type can be inferred from the expression.</description>
+Variable assignment  In PHP variable assigned is very simple : $myString = &#34;My String&#34;;   In Go this is a little different. Go is statically typed meaning those familiar with other statically typed languages would expect to see something like String myString = &#34;My String&#34;</description>
     </item>
     
     <item>
