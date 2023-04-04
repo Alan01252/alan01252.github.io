@@ -168,5 +168,16 @@ Why choose me as your PHP developer?  I&#39;m an advanced PHP developer with man
 The answer, PHPUnit + git bisect, using git bisect and PHPUnit we can quickly narrow down what commit caused the bug, which should allow us to find what caused and therefore solve the bug really quickly.</description>
     </item>
     
+    <item>
+      <title>Should junior engineers be worried about AI?</title>
+      <link>http://alanhollis.com/posts/should-junior-engineers-be-worried-about-ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://alanhollis.com/posts/should-junior-engineers-be-worried-about-ai/</guid>
+      <description>h2 { margin-top: 20px; margin-bottom: 20px; } h3 { font-size: 20px; font-family: &#39;Open Sans&#39;, sans-serif; margin-top: 20px; margin-bottom: 20px; }  Should junior engineers be worried about AI?   ChatGPT is incredible; forget blockchain, forget web3, forget the metaverse.
+This new form of artificial intelligence is the real deal, and now that the cat is out of the bag, there&#39;s no putting it back in.
+The rise of AI presents opportunities and challenges for junior engineers.</description>
+    </item>
+    
   </channel>
 </rss>
